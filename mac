@@ -187,6 +187,9 @@ brew_tap 'caskroom/versions'
 brew_cask_install 'flux'
 brew_cask_install 'github'
 brew_cask_install 'sublime-text3'
+brew_cask_install 'firefox'
+brew_cask_install 'iterm2'
+brew_cask_install 'atom'
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
