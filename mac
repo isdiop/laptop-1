@@ -191,6 +191,7 @@ brew_cask_install 'firefox'
 brew_cask_install 'iterm2'
 brew_cask_install 'atom'
 brew_cask_install 'google-chrome'
+brew_cask_install 'htop'
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
@@ -210,3 +211,5 @@ append_to_file "$HOME/.zshrc" 'export LSCOLORS=exfxcxdxbxegedabagacad;'
 if [ ! -f "$HOME/.ssh/github_rsa.pub" ]; then
   open ~/Applications/GitHub.app
 fi
+
+sudo gem install rails
