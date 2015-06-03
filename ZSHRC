@@ -1,0 +1,25 @@
+
+export PATH="$HOME/.bin:$PATH"
+
+export PATH="/usr/local/bin:$PATH"
+
+eval "$(hub alias -s)"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+precmd () { PS1="%{%F{166}%}[%~] %{%F{65}%}$(rvm-prompt) %{%f%}$ " }
+
+export CLICOLOR=1;
+
+export LSCOLORS=exfxcxdxbxegedabagacad;
+
+alias ll="ls -la"
+
+HIST_STAMPS="dd/mm/yyyy"
+HISTFILE=~/.zhistory
+HISTSIZE=25000
+SAVEHIST=25000
+
+COMPLETION_WAITING_DOTS="true"
+fpath=(/usr/local/share/zsh-completions $fpath)
+
