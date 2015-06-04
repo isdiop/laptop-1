@@ -1,6 +1,5 @@
 Laptop
 ======
-[![Build Status](https://travis-ci.org/monfresh/laptop.svg)](https://travis-ci.org/monfresh/laptop)
 
 Laptop is a script to set up an OS X computer for web development.
 
@@ -38,11 +37,11 @@ time, then press `return` after each one to download and execute the
 script, respectively:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/monfresh/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/thorstensiefert/laptop/master/mac
 bash mac 2>&1 | tee ~/laptop.log && source ~/.rvm/scripts/rvm
 ```
 
-The [script](https://github.com/monfresh/laptop/blob/master/mac) itself is
+The [script](https://github.com/thorstensiefert/laptop/blob/master/mac) itself is
 available in this repo for you to review if you want to see what it does
 and how it works.
 
@@ -53,11 +52,6 @@ automatically at the end of the script so you can set up everything you'll
 need to push code to GitHub.
 
 Once the script is done, quit and relaunch Terminal.
-
-More [detailed instructions with a video][video] are available in the Wiki.
-
-[Spotlight]: https://support.apple.com/en-us/HT204014
-[video]: https://github.com/monfresh/laptop/wiki/Detailed-installation-instructions-with-video
 
 What it sets up
 ---------------
@@ -75,6 +69,7 @@ What it sets up
 * [RVM] for managing Ruby versions (includes the latest [Ruby])
 * [Sublime Text 3] for coding all the things
 * [Zsh] as your shell
+* [Chrome] as Browser
 
 [Bundler]: http://bundler.io/
 [Flux]: https://justgetflux.com/
@@ -100,8 +95,6 @@ green, and sets the prompt character to `$`. It also allows you to easily
 distinguish directories from files when running `ls` by displaying directories
 in a different color. Below is a screenshot showing what the colors look like
 when using the default Terminal white background, the Solarized Dark theme, and the Solarized Light theme.
-
-![Terminal screenshots](http://cl.ly/image/19022S0q3H1b/download/Image%202015-05-12%20at%2011.31.04%20PM.png)
 
 If you want to use the [Solarized](http://ethanschoonover.com/solarized)
 themes, run the following commands in your Terminal:
@@ -194,13 +187,13 @@ Credits
 -------
 
 This laptop script is inspired by
-[thoughbot's laptop](https://github.com/thoughtbot/laptop) script.
+[thoughbot's laptop](https://github.com/thoughtbot/laptop) and [monfreshs laptop](https://github.com/monfresh/laptop)script.
 
 ### Public domain
 
 thoughtbot's original work remains covered under an [MIT License](https://github.com/thoughtbot/laptop/blob/c997c4fb5a986b22d6c53214d8f219600a4561ee/LICENSE).
 
-My work on this project is in the worldwide [public domain](LICENSE.md), as are contributions to my project. As stated in [CONTRIBUTING](CONTRIBUTING.md):
+Monfrehs and my work on this project is in the worldwide [public domain](LICENSE.md), as are contributions to my project. As stated in [CONTRIBUTING](CONTRIBUTING.md):
 
 > This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 >
