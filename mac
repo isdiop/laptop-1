@@ -213,3 +213,13 @@ if [ ! -f "$HOME/.ssh/github_rsa.pub" ]; then
 fi
 
 sudo gem install rails
+
+cd ~
+
+curl --remote-name https://raw.githubusercontent.com/tomislav/osx-terminal.app-colors-solarized/master/Solarized%20Dark.terminal
+
+curl --remote-name https://raw.githubusercontent.com/tomislav/osx-terminal.app-colors-solarized/master/Solarized%20Light.terminal
+
+open Solarized%20Dark.terminal
+
+open Solarized%20Light.terminal
