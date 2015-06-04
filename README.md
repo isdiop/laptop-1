@@ -101,20 +101,10 @@ in a different color. Below is a screenshot showing what the colors look like
 when using the default Terminal white background, the Solarized Dark theme, and the Solarized Light theme.
 
 If you want to use the [Solarized](http://ethanschoonover.com/solarized)
-themes, run the following commands in your Terminal:
-```bash
-cd ~
+themes, rake a look in the settings menu of yout terminal app...
 
-curl --remote-name https://raw.githubusercontent.com/tomislav/osx-terminal.app-colors-solarized/master/Solarized%20Dark.terminal
 
-curl --remote-name https://raw.githubusercontent.com/tomislav/osx-terminal.app-colors-solarized/master/Solarized%20Light.terminal
-
-open Solarized%20Dark.terminal
-
-open Solarized%20Light.terminal
-```
-
-This will add the Solarized themes to your Terminal's Profiles, and if you want to set one of them as the default, go to your Terminal's Preferences,
+This script will add the Solarized themes to your Terminal's Profiles, and if you want to set one of them as the default, go to your Terminal's Preferences,
 click on the Settings tab, scroll down to the Solarized Profile, click on it,
 then click the Default button. When you open a new window or tab (or if you quit and relaunch Terminal), it will use the Solarized theme.
 
@@ -148,15 +138,6 @@ Put your customizations there. You can use the `.laptop.local` you downloaded
 above to get started. It lets you install the following tools
 (commented out by default):
 
-* [Atom] - GitHub's open source text editor
-* [CloudApp] for sharing screenshots and making an animated GIF from a video
-* [Firefox] for testing your Rails app on a browser other than Chrome or Safari
-* [iTerm2] - an awesome replacement for the OS X Terminal
-
-[Atom]: https://atom.io/
-[CloudApp]: http://getcloudapp.com/
-[Firefox]: https://www.mozilla.org/en-US/firefox/new/
-[iTerm2]: http://iterm2.com/
 
 To install any of the above tools, uncomment them from `.laptop.local` by
 removing the `#`. For example, to install CloudApp, your `.laptop.local`
