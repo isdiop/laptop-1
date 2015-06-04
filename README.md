@@ -23,6 +23,10 @@ I support clean installations of these operating systems:
 Older versions may work but aren't regularly tested. Bug reports for older
 versions are welcome.
 
+To install a C compiler:
+
+`run sudo xcodebuild -license` and follow the instructions to accept the XCode agreement. Then `run xcode-select --install` in your terminal and then click "Install".
+
 Install
 -------
 
