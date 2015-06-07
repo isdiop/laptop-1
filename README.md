@@ -45,7 +45,7 @@ curl --remote-name https://raw.githubusercontent.com/thorstensiefert/laptop/mast
 bash mac 2>&1 | tee ~/laptop.log && source ~/.rvm/scripts/rvm
 ```
 
-The [script](https://github.com/thorstensiefert/laptop/blob/master/mac) itself is
+The [script](https://github.com/thorstensiefert/laptop-1/blob/master/mac) itself is
 available in this repo for you to review if you want to see what it does
 and how it works.
 
