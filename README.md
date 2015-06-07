@@ -41,7 +41,7 @@ time, then press `return` after each one to download and execute the
 script, respectively:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thorstensiefert/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/thorstensiefert/laptop-1/master/mac
 bash mac 2>&1 | tee ~/laptop.log && source ~/.rvm/scripts/rvm
 ```
 
